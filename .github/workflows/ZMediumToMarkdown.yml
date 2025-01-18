@@ -1,0 +1,14 @@
+name: ZMediumToMarkdown
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "10 1 15 * *" # At 01:10 on day-of-month 15.
+
+jobs:
+  ZMediumToMarkdown:
+    runs-on: ubuntu-latest
+    steps:
+    - name: ZMediumToMarkdown Automatic Bot
+      uses: ZhgChgLi/ZMediumToMarkdown@main
+      with:
+        command: "--cookie_uid ${{ secrets.MEDIUM_COOKIE_UID }} --cookie_sid ${{ secrets.MEDIUM_COOKIE_SID }} -j zhgchgli"
