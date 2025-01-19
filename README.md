@@ -1,3 +1,9 @@
+# 2025 Update: please use the new project `medium-to-jekyll-starter.github.io` instead.
+
+I have integrated the latest version (v7.x) of Jekyll (Chirpy Theme) with my ZMediumToMarkdown Medium article download and conversion tool to create a new GitHub template repository: [medium-to-jekyll-starter.github.io](https://github.com/ZhgChgLi/medium-to-jekyll-starter.github.io).
+
+---
+
 ![ZMediumToJekyll](https://user-images.githubusercontent.com/33706588/225700695-fcbbdd87-2eaf-4629-bbe9-3ab1d9f7f5e6.jpg)
 
 [![Automatic build](../../actions/workflows/pages-deploy.yml/badge.svg)](../../actions/workflows/pages-deploy.yml)
